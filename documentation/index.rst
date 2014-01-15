@@ -21,5 +21,8 @@ Indices and tables
 * :ref:`search`
 
 .. automodule:: pyatb
+   :members: 
+
+.. automodule:: pyatb.examples
    :members:
 
