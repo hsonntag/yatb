@@ -1,15 +1,15 @@
+"""
+Poll the current NMC/BTC
+========================
+Use API
+"""
+
 #!/usr/bin/python
 #examples/get_current_price.py
 import datetime
 import decimal
 import json
 import httplib
-
-"""
-Poll the current NMC/BTC
-=====
-Use API
-"""
 
 btce_domain = "btc-e.com"
 
@@ -124,3 +124,4 @@ def getTicker(pair, connection=None):
 if __name__ == '__main__':
     ticker = getTicker('nmc_btc')
     print str(ticker.avg) + 'BTC per NMC'
+

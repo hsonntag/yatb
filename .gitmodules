@@ -1,0 +1,3 @@
+[submodule "ga-bitbot"]
+	path = ga-bitbot
+	url = https://code.google.com/p/ga-bitbot/
